@@ -1,14 +1,3 @@
-module.exports = {
-  Employee,
-  Manager,
-  Developer,
-  HR,
-  PersonnelManagementSystem,
-  BonusSystem,
-  TrainingSystem,
-  AdvancedPersonnelManagementSystem,
-};
-
 // Клас "Співробітник"
 class Employee {
   constructor(name, position, salary, department) {
@@ -161,6 +150,17 @@ class AdvancedPersonnelManagementSystem extends PersonnelManagementSystem {
     return this.trainingSystem.getTrainings(employeeName);
   }
 }
+
+module.exports = {
+  Employee,
+  Manager,
+  Developer,
+  HR,
+  PersonnelManagementSystem,
+  BonusSystem,
+  TrainingSystem,
+  AdvancedPersonnelManagementSystem,
+};
 
 // Приклад використання
 const personnelSystem = new AdvancedPersonnelManagementSystem();
