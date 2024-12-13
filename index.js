@@ -1,3 +1,14 @@
+module.exports = {
+  Employee,
+  Manager,
+  Developer,
+  HR,
+  PersonnelManagementSystem,
+  BonusSystem,
+  TrainingSystem,
+  AdvancedPersonnelManagementSystem,
+};
+
 // Клас "Співробітник"
 class Employee {
   constructor(name, position, salary, department) {
