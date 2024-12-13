@@ -68,4 +68,4 @@
 3. **`assignTraining(employeeName, trainingName)`** - Додає функціональність навчання.
 4. **`getTrainings(employeeName)`** - Отримує інформацію про навчання.
 
-Конфлікт 2 
+Конфлікт 1
